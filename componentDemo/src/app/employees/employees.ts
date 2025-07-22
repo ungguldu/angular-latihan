@@ -8,7 +8,6 @@ import { Employee } from "./employee/employee";
   styleUrl: './employees.css'
 })
 export class Employees implements OnInit {
-  sitename = 'Day 2 app';
 
   constructor() {}
 

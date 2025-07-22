@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-employee',
-  imports: [CommonModule],
+  imports: [CommonModule, MatButtonModule],
   templateUrl: './employee.html',
   styleUrls: ['./employee.css']
 })
@@ -21,7 +22,7 @@ export class Employee implements OnInit {
     { name: 'Julia Martinez', age: 29, gender: 'Female', photo: 'https://i.pravatar.cc/80?img=10' },
   ];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }
