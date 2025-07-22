@@ -1,0 +1,8 @@
+<div class="employee-card" *ngFor="let employee of employees">
+  <img [src]="employee.photo" alt="employee photo" class="employee-photo">
+  <div class="employee-info">
+    <div><strong>Name:</strong> {{ employee.name }}</div>
+    <div><strong>Age:</strong> {{ employee.age }}</div>
+    <div><strong>Gender:</strong> {{ employee.gender }}</div>
+  </div>
+</div>
